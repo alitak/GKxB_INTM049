@@ -1,0 +1,34 @@
+Készítsen egy belső információs rendszert az Evil Corporation számára!
+
+A rendszer bal oldalán legyen egy oldalsáv, amely a menüt tartalmazza. Az oldalsáv tetején jelenjen meg a cég logója. Ehhez a logo_minta.png kép szerinti elrendezést kell megvalósítani, de kép nem használható fel erre a célra. A logó háttere fekete, a szöveg pedig fehér színű.
+Az oldalsáv háttérszíne sötétszörke legyen, a menüpontok szövegei feketék. Az esetleges elválasztóvonalak az oldalsáv teljes szélességén menjenek végig és fehér színűek legyenek. Az egyes menüpontok neve előtt szerepeljenek ikonok. Ehhez használja fel a https://fontawesome.com/ szolgáltatását.
+
+A menüpontok a következők legyenek. A lista elején a használni szükséges ikon osztálya van megjelenítve, továbbá a menüpont csoportok közötti elválasztó az alábbiak szerint kerüljön megjelenítésre.
+- building Lorem (12 345)
+- eye-slash Ipsum (340)
+- id-card Dolor (9 876)
+===================
+- building Sit amet (0)
+- id-card lorem (0)
+===================
+- filter Ipsum dolor (1 125)
+- filter GYMS (379)
+===================
+- chart-line Statistics
+===================
+- magic Wizard
+- address-book Address book
+
+Az oldal tetején egy kék színű fejléc kerüljön megjelenítésre. A fejléc nem lóghat rá az oldalsávra. A fejléc jobb oldalán jelenjen meg a belépett felhasználó avatarja (ehhez használja a https://pravatar.cc/ szolgáltatását. A név a kép jobb oldalán jelenjen meg, függőlegesen középre zárva.
+
+Az oldal tartalmi részén jelenjen meg az aktuális menüpont neve címsorban. A szövegnek ne legyen háttérszíne, a betűk fekete színűek legyenek. Az egyes menüpontok táblázatokat fognak megjeleníteni. A táblázat felett szükség van vezérlőgombok megjelenítésére.
+A bal oldalon 3 gomb szerepljen (ikon, háttérszín és felirat):
+- plus, kék New
+- eye, kék, View
+- building, zöld, Projects
+Utóbbi gomb ne legyen kattintható, ez a megjelenésen is látszódjon. Használja ehhez az átlátszóság (opacity) tulajdonságok.
+A vezérlőelemek jobb oldlára 1 gombot helyezzen (ikon, háttérszín és felirat):
+- eraser, narancssárga, Clear
+
+A táblázat alapszíne a fekete, a betűk fehér színűek. 5 oszlop jelenjen meg, valamint a fejlécen kívül 6 sor. A fejléc szövegei középre zártak legyenek és nagyobb betűméretűek legyenek, mint a táblázat tartalmi része. A sorok háttérszíne legyen sötétszürke (oldalsávval megegyező), valamint fekete, felváltva.
+A feladathoz használja fel a reset.css stíluslapot a böngészők alapértelmezett megjelenítésének kiszűrésére!
