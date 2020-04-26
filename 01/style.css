@@ -82,7 +82,13 @@ nav.main-menu ul li:hover a {
     color: #FFFFFF
 }
 
-section.main {
+nav.main-menu ul li.border-bottom {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.main {
     float: left;
     width: calc(100% - 240px);
 }
