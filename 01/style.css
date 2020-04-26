@@ -1,0 +1,171 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+button {
+    border: 1px solid;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button.blue {
+    background: blue;
+    border-color: lightblue;
+    color: #ffffff;
+}
+
+button.green {
+    background: green;
+    border-color: lightgreen;
+    color: #ffffff;
+}
+
+button.orange {
+    background: orange;
+    border-color: #ffc04d;
+}
+
+button.disabled {
+    opacity: 0.6;
+}
+
+section.sidebar {
+    float: left;
+    width: 240px;
+    background: #909090;
+    min-height: 100vh;
+}
+
+header.logo {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+}
+
+header.logo h2 {
+    font-size: larger;
+    transform: rotate(-40deg);
+}
+
+nav.main-menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    opacity: 0.7;
+}
+
+nav.main-menu ul li:hover {
+    background: #000000;
+}
+
+nav.main-menu ul li:hover a {
+    opacity: 1;
+    color: #FFFFFF
+}
+
+section.main {
+    float: left;
+    width: calc(100% - 240px);
+}
+
+header.topbar {
+    height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #add8e6;
+}
+
+header.topbar .logo {
+    display: block;
+}
+
+header.topbar .logo img {
+    vertical-align: middle;
+    border-radius: 50px;
+}
+
+main.content {
+    padding: 20px;
+}
+
+h1.title {
+    font-size: 44px;
+    margin: 10px 0 20px;
+}
+
+.grid {
+
+}
+
+.grid header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header-tools-left {
+    margin-right: auto;
+}
+
+.table {
+    color: #fbfbfb;
+    border-width: 1px;
+    border-color: #686767;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table thead tr {
+    background-color: #000000;
+}
+
+.table th {
+    background-color: #171515;
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #686767;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.table tbody tr {
+    background-color: #2f2f2f;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #504f4f;
+}
+
+.table td {
+    font-size: 12px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #686767;
+}
+
+.table tbody tr:hover {
+    background-color: #171515;
+}

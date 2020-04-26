@@ -1,0 +1,176 @@
+body {
+    background: #f0f3f9;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    background: #d0baff;
+}
+
+header.topbar {
+    height: 50px;
+    padding: 10px 20px;
+    background: #f0f3f9;
+}
+
+.logo h2 {
+    font-size: 38px;
+}
+
+.logo h2 small {
+    font-size: small;
+}
+
+.logo h3 {
+    text-align: right;
+    font-size: 20px;
+}
+
+.control-panel {
+    margin: 0 auto;
+}
+
+.control-panel a {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.control-panel a.button-blue {
+    background: #0011ba;
+    color: #ffffff;
+}
+
+.control-panel a.button-green {
+    background: #16ba55;
+    color: #000000;
+}
+
+.control-panel a.button-red {
+    background: #ba1e17;
+    color: #000000;
+}
+
+.control-panel a.button-purple {
+    background: #8617ba;
+    color: #ffffff;
+}
+
+.control-panel a.button-black {
+    background: #000000;
+    color: #ffffff;
+}
+
+header.topbar .avatar {
+    display: block;
+    margin: 0 0 0 50px;
+}
+
+header.topbar .avatar img {
+    vertical-align: middle;
+    border-radius: 50px;
+}
+
+main.content {
+    padding: 20px;
+}
+
+h1.title {
+    font-size: 44px;
+    margin: 10px 0 20px;
+}
+
+.filters {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.filters input[type=checkbox] {
+    vertical-align: middle;
+}
+
+.filters label {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cards {
+    background: #ffffff;
+    padding: 10px;
+}
+
+.cards h2 {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+}
+
+.card-wrapper {
+    width: 30%;
+    margin: 20px 2.5%;
+    float: left;
+}
+
+.card-wrapper:nth-child(3n+1) {
+    margin-right: 0;
+}
+
+.card-wrapper:nth-child(3n+2) {
+    margin-left: 0;
+}
+
+.card {
+    border: 1px dotted;
+    padding: 10px;
+}
+
+.card header {
+    font-size: 18px;
+    border-bottom: 1px solid #ff0000;
+    margin-bottom: 15px;
+}
+
+.card section {
+    margin-bottom: 20px;
+}
+
+footer.main-footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 20px 0;
+}
+
+footer.main-footer a {
+    font-weight: bold;
+}

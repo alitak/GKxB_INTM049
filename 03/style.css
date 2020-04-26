@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section.cover {
+    height: 300px;
+    background: url(cover.jpg) center center;
+}
+
+section.cover .wrapper {
+    position: relative;
+    height: 100%;
+}
+
+section.cover h1 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 48px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+main.content {
+    width: 880px;
+    float: left;
+}
+
+article {
+    padding: 50px;
+}
+
+article img {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+article h2 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+
+article p {
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+article footer, article footer a {
+    text-align: right;
+    color: #7d7d7d;
+}
+
+article footer a {
+    font-weight: bold;
+}
+
+section.sidebar {
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+
+section.sidebar .search {
+    padding: 20px 0;
+}
+
+section.sidebar .search input {
+    width: 100%;
+}
+
+section.sidebar h3 {
+    font-size: 22px;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+}
+
+section.sidebar ul {
+    padding: 0 0 0 30px;
+    margin: 0 0 50px 0;
+    list-style: square;
+}
+
+section.sidebar ul li {
+    margin: 0 0 10px 0;
+}
+
+footer.main-footer {
+    text-align: center;
+    font-width: bold;
+    padding: 20px;
+}
+
+footer.main-footer a::after {
+    content: " • ";
+}
+
+footer.main-footer a:last-child::after {
+    content: "";
+}
