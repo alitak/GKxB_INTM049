@@ -1,0 +1,22 @@
+Készítsen egy kártyás felületet a Lö Fantom Company eseményei számára.
+
+Az oldal fejléce 3 részből álljon:
+1) Cég szöveges logója a logo_minta.png alapján. Fontos, hogy ne a képet használja, a logó szövegesen jelenjen meg.
+2) Vezérlőgombok az alábbi betűkkel, valamint háttérszínnel (F - kék, G - zöld, L - piros, M - lila, E - fekete). A gombok kattinthatóak legyenek, alakjuk pedig lekerekített négyzet legyen.
+3) Belépett adminisztrátor képe, valamint neve A kép kerek legyen, avatarhoz használj a https://pravatar.cc/ szolgáltatását. A név a kép jobb oldalán jelenjen meg, függőlegesen középre zárva.
+
+A kártyák dobozának színe legyen eltérő az oldal háttérszínétől. Az oldal neve alatt legyen egy szűrősáv. Lehessen szabadszavasan keresni, valamint a 3 típusra (bevonzó kampány, csapatépítő, turisztikai) lehessen rászűrni checkbox segíŧségével.
+A kártyák 3-as oszlopba legyenek elrendezve. Minden kártyának legyen egy neve, amely alatt egy piros elválasztóvanal legyen. A dobozban meg kell jenelíteni bal oldalt 3 nyomógombot, míg jobb oldalt az adott elem típusát (a fenti 3 típus egyike).
+A kártya láblécében szerepeljen egy időpont, amely jelzi az esemény végét, valamint jobb oldalon egy információgomb.
+
+A kártya vázlatos elrendezése a következő:
+
++--------------------------------------------+
+| Lorem ipsum dolor sit amet                 |
+| ========================================== |
+| |G 2| |T 3| |U 3|              csapatépítő |
+| vége: 12:00:00                         |I| |
++--------------------------------------------+
+
+Az oldal lábléce a tartalom magasságától független az oldal alján kerüljön megjelenítésre, középre zárva. Szerepeljen benne az oldal készítőjének a neve, valamint a rendszer üzemeltetőjének a neve. A két név kattintható legyen.
+A feladathoz használja fel a reset.css stíluslapot a böngészők alapértelmezett megjelenítésének kiszűrésére!
